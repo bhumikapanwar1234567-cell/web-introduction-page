@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Introduction</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #ffffff;
+        }
+
+        .page {
+            padding: 50px 10%;
+        }
+
+        h1 {
+            font-size: 40px;
+            border-left: 6px solid #00ffd5;
+            padding-left: 15px;
+        }
+
+        .info {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        section h2 {
+            color: #00ffd5;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #e0f7fa;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+
+        .fun-fact {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-left: 5px solid #ffcc00;
+            font-style: italic;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <h1>Personal Introduction</h1>
+        <div class="info">
+            <p><strong>Name:</strong> Bhumika</p>
+            <p><strong>Branch & Year:</strong> CSE – 1st Year</p>
+        </div>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a first-year engineering student with a keen interest in
+                technology and self-growth. I enjoy learning new concepts,
+                especially in web development, and believe in improving myself
+                through curiosity and consistency.
+            </p>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Exploring new technology concepts</li>
+                <li>Listening to music</li>
+                <li>Thinking creatively and learning new skills</li>
+            </ul>
+        </section>
+
+        <div class="fun-fact">
+            ⭐ Fun Fact: I enjoy learning new things even before knowing how useful they will be.
+        </div>
+
+        <footer>
+            © 2025 | Web Development Task – D-Coders Squad
+        </footer>
+    </div>
+
+</body>
+</html>
